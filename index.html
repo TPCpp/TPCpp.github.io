@@ -1,57 +1,227 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>TPCpp|主页</title>
-</head>
-  <meta name="description" content="C++学术讨论+出题 Talk and Problem in Cpp (TPCpp) 团队 官方网站 主页">
-  <meta name="keywords" content="TPC,TPCpp,tpcpp,TPCPP,C++学术讨论,C++学术讨论+出题">
-  <link rel="shortcut icon" href="tpc.ico">
-  <style>
-    body {
-       padding-bottom: 50px;
-    }
-    .footer {
-      position: fixed;
-      left: 0px;
-      bottom: 0px;
-      width: 100%;
-      height: 50px;
-      background-color: #FFF7F7;
-      z-index: 9999;
-    }
-    .FootBlock{
-      display: inline-block;
-      width: 100px;
-      height: 30px;
-      line-height: 24px;
-      font-family:微软雅黑;
-      font-size:15px;
-      text-align: center;
-      border-radius: 3px;
-      background-color: deepskyblue;
-      color: White;
-      cursor: pointer;
-    }
-    .FootBlock:hover {background-color: dodgerblue;}
-    .FootBlock:link {text-decoration:none;}
-    .FootBlock:active {background-color: darkblue;}
-    .TeamOtherLink{
-      font-size:18px;text-decoration:none;color: Blue;
-    }
-  </style>
-<body bgcolor="#B7E6FF">
-  <h2 align="center"><font color="00A1FF">C++学术讨论+出题 Talk and Problem in Cpp (TPCpp) 团队 官方网站</font></h2>
-  <p align="center"><font color="555555">这里是 C++学术讨论+出题 Talk and Problem in Cpp (TPCpp) 团队 官方网站</font></p>
-  <p align="center"><font color="555555">您可以在 <a href="https://www.luogu.com.cn" style="color:#68ABFD;text-decoration:none;">洛谷</a></font><font color="555555"> 中找到我们</p>
-  <p align="center"><font color="555555">我们是 <a href="https://www.luogu.com.cn/team/51635" style="color:#68ABFD;text-decoration:none;">TPCpp</a><font color="555555"> 团队</font></p>
-  <p align="center"><font color="555555"><a href="team.html" style="color:#68ABFD;text-decoration:none;">这里</a><font color="555555">有我们的团队信息</font></p>
-  <div class="footer">
-    <p align="center">
-      <a class="FootBlock" href="index.html" style="color:#555555;text-decoration:none;">主页</a>
-      <a class="FootBlock" href="team.html" style="color:#555555;text-decoration:none;">团队信息</a>
-      <a class="FootBlock" href="data.html" style="color:#555555;text-decoration:none;">更新日志</a>
-    </p>
-  </div>
-</body>
+  <head>
+    <meta charset="utf-8">
+    <title>TPCpp|官网主页</title>
+    <!--<meta http-equiv="refresh" content="3;url=index.html">--> 
+    <meta name="description" content="C++学术讨论+出题 Talk and Problem in Cpp (TPCpp) 团队 官方网站 官网主页">
+    <meta name="keywords" content="TPC,TPCpp,tpcpp,TPCPP,C++学术讨论,C++学术讨论+出题">
+    <link rel="shortcut icon" href="tpc.ico">
+    <style>
+      a:link {
+        color: #4c9ada;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #4c9ada;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #235ab2;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      a:active {
+        color: #235ab2;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #3DA0DA;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+      }
+      .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #FFFFFF;
+        display: block;
+        transition: 0.3s;
+      }
+
+      .sidenav a:hover {
+        color: #f1f1f1;
+      }
+      .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+      }
+
+      @media screen and (max-height: 450px) {
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
+      }
+      h1{
+        background-color:none;
+      }
+      h2{
+        background-color:none;
+      }
+      h3{
+        background-color:none;
+      }
+      h4{
+        background-color:none;
+      }
+      h5{
+        background-color:none;
+      }
+      p{
+        background-color:none;
+      }
+      h2.margin{
+        margin-top:-30px;
+        margin-bottom:30px;
+        margin-right:0px;
+        margin-left:200px;
+      }
+      h1{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+	  table{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+      h2{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+      h3{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+      h4{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+      h5{
+        margin-top:10px;
+        margin-bottom:10px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+      p{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+      ul{
+        margin-top:0px;
+        margin-bottom:0px;
+        margin-right:0px;
+        margin-left:230px;
+      }
+    </style>
+  </head>
+  <body bgcolor="#FFFFFF">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">官网主页</a>
+      <a href="team.html">官网信息</a>
+      <a href="score.html">学分排名</a>
+      <a href="problem.html">团队题库</a>
+      <a href="tool.html">实用工具</a>
+      <a href="data.html">更新日志</a>
+    </div>
+    <span style="font-size:30px;cursor:pointer;color:#3DA0DA" onclick="openNav()">&#9776; 展开</span>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "170px";
+      }
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+    <h2 class="margin">官网主页 | 网页总访问量：<img src="https://badges.toozhao.com/badges/01H9AH0AWY6Y6EJ9VF59HGZRPG/orange.svg" /></h2>
+    <HR>
+		<script>
+	        Date.prototype.format = function (fmt) {
+	            var o = {
+	                "y+": this.getFullYear, //年
+	                "M+": this.getMonth() + 1, //月份
+	                "d+": this.getDate(), //日
+	                "h+": this.getHours(), //小时
+	                "m+": this.getMinutes(), //分
+	                "s+": this.getSeconds() //秒
+	            };
+	            if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+	            for (var k in o)
+	                if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+	            return fmt;
+	        }
+	        setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-MM-dd hh:mm:ss');", 1000);
+	    </script>
+	<h3 id="你好，世界！">你好，世界！</h3>
+	<table border="1">
+	<tr>
+	  <td>现在是：<div id="dateTime"></div></td>
+	</tr>
+	</table>
+	<p>这里是 C++学术讨论+出题(TPCpp)团队 官网主页</p>
+	</br>
+	<p>您可以在这里找到有关于 TPCpp 的一切</p>
+	</br>
+	<p>一些重要的帖子（不定期更新）：</p>
+	</br>
+	<ul>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/733535">通知</a> 
+	2023-11-17 23:43:38
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/636709">TWM 赛时答疑帖</a> 
+	2023-07-18 15:10:28
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/636254">关于创建 TWM(Team Weekend Match) 的通知</a> 
+	2023-07-17 22:53:15
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/634888">关于 TWM 的决议</a> 
+	2023-07-16 14:20:36
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/630512">团队处罚帖</a> 
+	2023-07-11 13:57:24
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/629572">团队奖励帖</a> 
+	2023-07-10 14:08:31
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/599548">用户举报帖</a> 
+	2023-04-22 13:34:00
+		</li>
+		<li>
+			<a href="https://www.luogu.com.cn/discuss/570300">建议留言帖</a> 
+	2023-02-08 22:25:43
+		</li>
+	</ul>
+
+  </body>
 </html>
